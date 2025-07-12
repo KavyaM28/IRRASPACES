@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | IRRA SPACES</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <div>
+      <a href="index.html" class="logo" style="font-family: 'Poppins', Georgia, 'Times New Roman', Times, serif; font-size: 36px;">IRRA SPACES</a>
+      <h4 style="font-family: 'Poppins', Georgia, 'Times New Roman', Times, serif; font-size: 18px;color:  rgb(44, 1, 123);">Envision, Design, Create, Inspire</h4>
+      </div>
+      
+      <!-- Custom Hamburger Toggle -->
+      <div class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="process.html">Process</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header><br>
+
+  
+  <section class="Contact">
+  <div class="hero-text">
+    <h1>Contact Us</h1>
+  </div><br>
+  <div style="text-align: center;">
+    <h3>We'd love to hear from you. Whether you're starting a new project or just exploring ideas, reach out — and let’s build something beautiful together.
+    </h3></div>
+  </section><br><br><br>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <div class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form action="mailto:hello@irraspaces.com" method="post" enctype="text/plain" onsubmit="return validateEmail()">
+        <input type="text" name="Name" placeholder="Your Name" required>
+        <input type="email" name="Email" placeholder="Your Email" required>
+        <textarea name="Message" placeholder="Your Message" rows="6" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+
+    <div class="contact-map">
+      <h2>Visit Our Studio</h2>
+      <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7615.673117007231!2d78.54321643710139!3d17.37159594482398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb990c1ab8567b%3A0x6e718bc1364bee23!2sMetro%20Heights!5e0!3m2!1sen!2sin!4v1752332539958!5m2!1sen!2sin"
+       width="300" height="350" 
+       style="border:0;" allowfullscreen="" loading="lazy" 
+       referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+      <p><strong >Address:</strong> Metroheight, snehapuri colony, kothapet, Hyderabad, Telangana-500035, India</p>
+      <p><strong>Email:</strong> <a href="mailto:bhanu@irraspaces.com">hello@irraspaces.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+918050295130">+91 8050295130</a></p>
+    </div>
+  </section><br><br>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 IRRA SPACES. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+
+</body>
+</html>
