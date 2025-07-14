@@ -7,24 +7,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
   if (toggle && navLinks) {
     toggle.addEventListener('click', () => {
-    toggle.classList.toggle('active'); // For animation
-    navLinks.classList.toggle('show'); // Show/Hide menu
+      toggle.classList.toggle('active'); // Hamburger → X
+      navLinks.classList.toggle('show'); // Toggle menu visibility
     });
 
-    // Close mobile menu on nav link click
+    // Auto-close mobile menu on link click
     const links = navLinks.querySelectorAll('a');
     links.forEach((link) => {
       link.addEventListener('click', () => {
         if (window.innerWidth <= 768) {
-          navLinks.classList.remove('active');
-          toggle.classList.remove('show');
+          toggle.classList.remove('active');
+          navLinks.classList.remove('show');
         }
       });
     });
   }
-
-  // Run reveal on first load
-  revealOnScroll();
 
   // 💌 Form Validation
   const form = document.querySelector('form');
@@ -45,6 +42,9 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   }
+
+  // ✨ Reveal on load (initial check)
+  revealOnScroll();
 });
 
 // ✨ 2. Reveal Elements on Scroll
@@ -63,3 +63,4 @@ function revealOnScroll() {
 }
 
 window.addEventListener('scroll', revealOnScroll);
+
