@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/irraspaces/static/css/main.fb6e7754.css",
+    "main.css": "/irraspaces/static/css/main.ae92ba9c.css",
     "main.js": "/irraspaces/static/js/main.acb48e07.js",
     "index.html": "/irraspaces/index.html",
-    "main.fb6e7754.css.map": "/irraspaces/static/css/main.fb6e7754.css.map",
+    "main.ae92ba9c.css.map": "/irraspaces/static/css/main.ae92ba9c.css.map",
     "main.acb48e07.js.map": "/irraspaces/static/js/main.acb48e07.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb6e7754.css",
+    "static/css/main.ae92ba9c.css",
     "static/js/main.acb48e07.js"
   ]
 }
