@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/irraspaces/static/css/main.fb6e7754.css",
+    "main.js": "/irraspaces/static/js/main.d86f3177.js",
+    "index.html": "/irraspaces/index.html",
+    "main.fb6e7754.css.map": "/irraspaces/static/css/main.fb6e7754.css.map",
+    "main.d86f3177.js.map": "/irraspaces/static/js/main.d86f3177.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb6e7754.css",
+    "static/js/main.d86f3177.js"
+  ]
+}
